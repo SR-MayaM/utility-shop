@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.head{
+    position: relative;
+    z-index: 3;
+    background-color: white;
+    margin: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    border-radius: 0px 0px 10px 10px;
+   
+
+    
+   
+}
+
+
+.Brand span{
+    margin: 10px;
+    
+}
+
+.botones-header button{
+    border-radius: 100px;
+    border: none;
+    padding: 10px;
+}
+
+.fondo-header{
+    position: relative;
+    z-index: 1;
+    height:80vh ;
+    width: 100vw;
+    top: -72px;
+
+}
+
+.img-fnd{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.Shop{
+    color: white;
+    z-index: 2;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    transform: translate(-50% -50%);
+    letter-spacing:15vh;
+    font-size: 200px;
+}
+
+
+.busquedas{
+    position: relative;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    margin: 0 5%;
+    padding: 40px;
+    top: -120px;
+    z-index: 2;
+    border-radius: 10px;
+    align-items: center;
+    
+}
+
+.barra-busquedas{
+    
+    margin-right: 40px;
+    
+
+}
+
+
+.busqueda-input{
+    padding: 10px;
+    border-radius: 20px 0px 0px 20px ;
+    border: none;
+    border: 1px solid black;
+    border-right: 0;
+    
+}
+
+.busqueda-button{
+    position: absolute;
+    padding: 10px 20px;
+    border-radius: 0px 20px 20px 0px;
+    border: 1px solid black;
+    background: none;
+    border-left: 0;
+    
+
+}
+
+.contenedor-general{
+   
+    display: flex;
+    transform: translateY(-20vh);
+    margin: 0 5%;
+
+    
+}
+
+.Menu-Navegacion{
+    width: 10%;
+    color: black;
+    transform: translateY(50px);
+
+    
+}
+
+.Menu-Navegacion a{
+    text-decoration: none;
+    color: black;
+}
+.Menu-Navegacion button{
+    border: none;
+    font-size: 15px;
+    background: none;
+}
+
+.list{
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    
+    
+}
+
+.list-item{
+    list-style: none;
+    margin-left:10% ;
+    overflow: hidden;
+    display: block;
+    padding: 15px 0;
+    overflow: hidden;
+    
+}
+
+ul li{
+    overflow: hidden;
+}
+.list-item-click{
+    cursor: pointer;
+}
+
+.arrow .List-Arrow{
+    transform: rotate(90deg);
+    
+    
+}
+
+.List-Arrow{
+    margin-left: auto;
+    transition: transform .3s;
+}
+
+.list-inside{
+    width: 80%;
+    margin-left: auto;
+    list-style: none;
+    border-left: 2px solid black;
+    transition: height 0.4s;
+    height:0;
+    padding-left: 30px;
+    
+}
+
+
+
+.list-inside:hover{
+    background-color: beige;
+    
+}
+
+.catalogo{
+    display: grid;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 20px;
+    transform: translateY(50px);
+    
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+
+}
+
+.catalogo-item{
+    border-radius: 20px;
+    background-color: aqua;
+    width: 325px;
+    
+}
+
+
+.div-img{
+    position: relative;
+    
+    border-radius: 20px;
+    display: block;
+   
+      
+
+
+}
+
+.auricular-img{
+    
+    width: 99%;
+    height: 100%;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.catalogo-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #f8f8f8;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #444;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+.texto{
+    text-align: left;
+    margin: 10px;
+    margin-left:20px ;
+    font-size: 25px
+}
+
+.valoracion{
+  display: flex;
+    margin: 20px 20px;
+    justify-content: space-between;
+
+
+}
+
+
+.text-valoracion{
+    text-align: left;
+}
+
+.price{
+    text-align: end;
+}
+
+
+
+
+
+
+
+
+
+
