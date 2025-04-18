@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     font-family: sans-serif;
@@ -183,32 +184,34 @@ ul li{
 
 .catalogo{
     display: grid;
+    gap: 20px;
     width: 90%;
-    text-align: center;
-    justify-content: center;
     margin-left: 20px;
-    transform: translateY(50px);
-    
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 30px;
+    padding: 20px 0;
 
+    grid-template-columns: auto auto auto;
+    grid-template-rows:  3, 1fr;
+   
+    
 }
 
-.catalogo-item{
-    border-radius: 20px;
+.item-ctlg{
     background-color: aqua;
-    width: 325px;
-    
+    border-radius: 20px;
+    overflow: hidden;
+    width: 320px; /* Cambia esto desde 325px a 100% para que fluya bien en grid */
+    max-width: 320px;
+    margin: auto;
+   /* Centra cada item si sobra espacio */
 }
 
 
 .div-img{
     position: relative;
-    
+    width: 100%;
+    height: auto;
     border-radius: 20px;
-    display: block;
-   
+    object-fit: cover;
       
 
 
@@ -217,7 +220,7 @@ ul li{
 .auricular-img{
     
     width: 99%;
-    height: 100%;
+    height: 325px;
     z-index: 1;
     border-radius: 20px;
 }
@@ -261,6 +264,36 @@ ul li{
 .price{
     text-align: end;
 }
+
+
+
+.confirm-btn {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.add{
+    width: 50%;
+    border: 2px solid;
+    padding: 10px ;
+    border-radius: 35px;
+    margin: 10px;
+    
+
+}
+.buy{
+    width: 50%;
+    border: 2px solid black ;
+    padding: 15px ;
+    border-radius: 35px;
+    margin: 10px;
+    background-color: black;
+    color: #f8f8f8;
+}
+
+
 
 
 
