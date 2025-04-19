@@ -62,7 +62,7 @@
 .busquedas{
     position: relative;
     display: flex;
-    background-color: white;
+    background-color: #e3e3e3;
     justify-content: space-between;
     margin: 0 5%;
     padding: 40px;
@@ -196,7 +196,7 @@ ul li{
 }
 
 .item-ctlg{
-    background-color: aqua;
+    background-color: #e3e3e3;
     border-radius: 20px;
     overflow: hidden;
     width: 320px; /* Cambia esto desde 325px a 100% para que fluya bien en grid */
@@ -292,6 +292,37 @@ ul li{
     background-color: black;
     color: #f8f8f8;
 }
+
+
+.indice{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.numeros{
+    
+    display: flex;
+    gap: 10px;
+    
+}
+
+.interior{
+   
+    padding: 11px 14px;
+    border-radius: 10px;
+    border: solid 1px black;
+    background-color:#e3e3e3;
+
+}
+
+.interior:hover{
+    background-color: #cacaca;
+}
+
+
+
+
 
 
 
