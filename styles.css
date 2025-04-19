@@ -394,6 +394,39 @@ ul li{
     border: none;
 }
 
+.about-bg{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4%;
+}
+
+.about-container{
+    display: flex;
+    text-align: start;
+   
+    
+}
+
+.abt{
+    margin: 30px;
+    
+}
+
+.abt-txt{
+    margin: 20px 0;
+}
+
+.support{
+    margin: 30px;
+    
+}
+
+
+.social{
+    display: block;
+}
+
 
 
 
