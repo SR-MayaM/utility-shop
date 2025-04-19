@@ -428,6 +428,7 @@ ul li{
     display: flex;
     place-items: end;
     transform: translateY(-60px);
+   
 }
 
 .social-icon{
@@ -443,6 +444,29 @@ ul li{
     transform: translateY(-40px);
     
 }
+
+footer{
+    border-top: solid 2px #cacacaca;
+    
+
+}
+
+footer a{
+    color:#bdbdbd ;
+    text-decoration: none;
+    
+
+}
+
+.footer{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 3%;
+   
+
+}
+
 
 
 
