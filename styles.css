@@ -324,7 +324,6 @@ ul li{
 .recomendations{
     display: flex;
     justify-content: space-between;
-   
     margin: 0 4%;
 }
 
@@ -343,6 +342,10 @@ ul li{
     font-weight: 800;
     font-size: 30px;
     margin: 7px;
+}
+
+.art-recomend{
+    display: flex;
 }
 
 
