@@ -348,5 +348,53 @@ ul li{
     display: flex;
 }
 
+.ready-bg{
+    color: white;
+    background: #000000;
+    background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(84, 84, 84, 1) 95%);
+    margin: 10vh 3%;
+    padding: 20px;
+    border-radius: 25px;
+
+    
+}
+
+.ready{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lorem-txt{
+    width: 40%;
+    padding: 100px 0 0 0;
+    align-items: end;
+}
+
+.get{
+    display: block;
+    margin-top:5px ;
+    
+}
+
+.get-container{
+    margin-bottom: 100px;
+}
+
+.send-btn{
+    padding: 17px 70px;
+    border-radius: 60px;
+}
+
+.btn-inside{
+    padding: 10px 20px;
+    border-radius: 60px;
+    transform: translateX(-90px);
+    background-color: #000000;
+    color: white;
+    border: none;
+}
+
+
+
 
 
