@@ -395,10 +395,11 @@ ul li{
 }
 
 .about-bg{
-    background-color: aqua;
+ 
     display: flex;
     justify-content: space-between;
     margin: 0 4%;
+    height: auto;
 }
 
 .about-container{
@@ -424,7 +425,23 @@ ul li{
 
 
 .social{
-    display: block;
+    display: flex;
+    place-items: end;
+    transform: translateY(-60px);
+}
+
+.social-icon{
+    font-size: 40px;
+    margin-right: 50px;
+    
+}
+
+.social-txt{
+    font-size: 20px;
+    font-weight: bold;
+    opacity: .7;
+    transform: translateY(-40px);
+    
 }
 
 
